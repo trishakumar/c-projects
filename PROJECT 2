@@ -1,0 +1,19 @@
+#include <iostream>
+#include <climits>
+using namespace std;
+
+int main()
+{
+    cout << "the maximum limit of int data type " << INT_MAX << endl;
+    cout << "the minimum limit of int data type " << INT_MIN << endl;
+    cout << "the maximum limit of char data type " << CHAR_MAX << endl;
+    cout << "the minimum limit of char data type " << CHAR_MIN << endl;
+    cout << "the number of bytes of char data type " << CHAR_BIT << endl;
+    cout << "the maximum limit of long data type " << LLONG_MAX << endl;
+    cout << "the minimum limit of long data type " << LLONG_MIN << endl;
+    cout << "the maximum limit of unsigned long data type " << ULONG_MAX << endl;
+
+    cout << "the maximum limit of short data type " << SHRT_MAX << endl;
+    cout << "the minimum limit of short data type " << SHRT_MIN << endl;
+    return 0;
+}
