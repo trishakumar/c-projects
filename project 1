@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << sizeof(int) << " is the size of integer" << endl;
+    cout << sizeof(char) << " is the size of character" << endl;
+    cout << sizeof(short) << " is the size of short" << endl;
+    cout << sizeof(long) << " is the size of long" << endl;
+    cout << sizeof(long long) << " is the size of long long" << endl;
+    cout << sizeof(float) << " is the size of float" << endl;
+    cout << sizeof(double) << " is the size of double" << endl;
+    cout << sizeof(long double) << " is the size of long double" << endl;
+    cout << sizeof(bool) << " is the size of boolean" << endl;
+    return 0;
+}
