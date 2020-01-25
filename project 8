@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float r;
+    cout << "enter the value of r = " << endl;
+    cin >> r;
+    cout << "volume of a sphere = " << r*r*r*4/3*3.14<< endl;
+    return 0;
+}
