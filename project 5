@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    int b;
+    cout << INT_MAX << endl;
+    cout << INT_MIN << endl;
+    cout << "value of a = " << INT_MAX << endl;
+    cout << "value of b = " << INT_MIN <<endl;
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    return 0;
+}
