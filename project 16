@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int h;
+    int b;
+    cout << "enter height = " << endl;
+    cin >> h;
+    cout << "enter base = " << endl;
+    cin >> b;
+    cout << "area of scalene triangle = " << (h*b)/2 << endl;
+    return 0;
+}
